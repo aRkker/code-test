@@ -31,9 +31,14 @@ UI_SERVER_PORT=3001
 Database config
 --
 MONGO_HOST=Database server's IP 
+
 MONGO_PORT=Database's port
+
 MONGO_DB=database
+
 MONGO_USERNAME=database's username
+
 MONGO_PASS=database's password
+
 
 After that (and installing packages with yarn (npm untested)) you can run it with just yarn index.js and it should work
